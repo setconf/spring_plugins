@@ -11,7 +11,7 @@ public final class CsvWriter implements WriterPlugin {
 
     @Override
     public void write(String message) {
-        log.info("writing TXT: {}", message);
+        log.info("writing CSV: {}", message);
     }
 
     @Override
